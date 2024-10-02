@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+
+#boxfoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#boxusuario{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boxmegusta{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+#boxbotones{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+button{
+    background-color: white;
+    border: none;
+}
+#imgusuario{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid violet;
+}
+#imgfoto{
+    width: 100%;
+    border-radius: 5px;
+}
+#boxpublicacion{
+    width: 90%;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
